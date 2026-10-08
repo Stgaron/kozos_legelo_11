@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Segoe UI;
+}
+body{
+    max-width: 1500px;
+    margin: auto;
+    background-color: #f7f7ee;
+}
+.csillag{
+    background-color: lightgreen;
+    opacity: 50%;
+    padding: 3px;
+    margin: 2px;
+}
+.elsonav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.elsonavszoveg{
+    padding: 2px;
+    margin: 2px;
+}
+.elsonavszovegresz{
+    display: flex;
+    flex: 0 0 67%;
+}
+.elsonavlinkresz{
+    padding: 2px;
+    margin: 2px;
+}
+nav a{
+    text-decoration: none;    
+    color: #174b38;
+}
+.elsonavlinkresz ul{
+    display: flex;
+    gap: 20px;
+}
+.kezdet{
+    border-radius: 10px;
+    background-color: #174b38;
+    padding: 2px;    
+}
+a:hover{
+    background-color: #174b38;
+    color: white;
+}
+.kezdet a{
+    color: white;
+}
+header{
+    margin: 10px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #174b38;
+}
+.header1{
+    display: flex;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav2 li{
+    flex: 0 0 25%;
+    text-align: center;
+    background-color: #e8f3df;
+}
+.articleesasidevalaszto{
+    display: flex;
+}
+article{
+    flex: 0 0 66%;
+}
+img{
+    max-width: 100%;
+    width: 50px;
+}
+.allatok{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, lightblue 50%, #e8f3df 50%);
+}
+.kep{
+    flex: 0 0 12.5%;
+    text-align: center;
+}
+.statisztika{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.statisztika section{
+    flex: 0 0 33%;
+    margin: 10px;
+}
+
